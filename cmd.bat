@@ -1,0 +1,1 @@
+".\setup-x86-2.909.exe" -t --allow-unsupported-windows -a x86 --force-current --keep-untrusted-keys --no-version-check --no-verify --site http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/2021/10/28/175116 --upgrade-also --verbose

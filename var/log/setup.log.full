@@ -1,0 +1,75 @@
+2023/08/24 18:14:12 Starting cygwin install, version 2.909
+2023/08/24 18:14:12 User has backup/restore rights
+2023/08/24 18:14:12 Current Directory: C:\cygwin
+Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2023/08/24 18:14:14 source: network install
+2023/08/24 18:14:14 root: C:\cygwin system
+2023/08/24 18:14:15 Selected local directory: C:\cygwin
+2023/08/24 18:14:15 net: Preconfig
+2023/08/24 18:14:15 site: http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/2021/10/28/175116/
+User-Agent: default is "Cygwin-Setup/2.909 (Windows NT 10.0.21301;Win32-on-Win64;0409)"
+2023/08/24 18:14:16 HTTP status 404 fetching http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/2021/10/28/175116/x86/setup.zst.sig
+2023/08/24 18:14:16 HTTP status 404 fetching http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/2021/10/28/175116/x86/setup.zst
+2023/08/24 18:14:16 HTTP status 404 fetching http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/2021/10/28/175116/x86/setup.xz.sig
+Request for URL http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/2021/10/28/175116/x86/setup.xz satisfied from cache
+Fetched URL: http://ctm.crouchingtigerhiddenfruitbat.org/pub/cygwin/circa/2021/10/28/175116/x86/setup.xz
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+.ini setup_version is 2.909, our setup_version is 2.909
+INSTALLED.DB version 3
+2023/08/24 18:14:22 solving: 0 tasks, update: yes, use test packages: yes
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0
+libsolv: number of solvables: 54864, memory used: 2786 K
+libsolv: number of ids: 28188 + 54752
+libsolv: string memory used: 110 K array + 481 K data,  rel memory used: 641 K array
+libsolv: string hash memory: 256 K, rel hash memory : 512 K
+libsolv: provide ids: 11994
+libsolv: provide space needed: 40871 + 109504
+libsolv: shrunk whatprovidesdata from 40871 to 40871
+libsolv: shrunk whatprovidesauxdata from 40871 to 28874
+libsolv: whatprovides memory used: 327 K id array, 587 K data
+libsolv: whatprovidesaux memory used: 110 K id array, 112 K data
+libsolv: WARNING: pool_addfileprovides was not called, this may result in slow operation
+libsolv: lazywhatprovidesq size: 0 entries
+libsolv: createwhatprovides took 16 ms
+libsolv: obsoletes data: 1 entries
+libsolv: added 2213 pkg rules for installed solvables
+libsolv: added 406 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 506 of 27568 installable solvables considered for solving
+libsolv: pruned rules from 2620 to 2620
+libsolv:   binary: 1058
+libsolv:   normal: 1561, 10240 literals
+libsolv: pkg rule memory used: 61 K
+libsolv: pkg rule creation took 15 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 2619 pkg rules, 2 * 113 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules
+libsolv: overall rule memory used: 66 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: keeping orphaned base-0.0-0.any
+libsolv: keeping orphaned _windows-10.0.21301.any
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 16 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 95 ms
+libsolv: 
+libsolv: transaction:
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.21301.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 0
+2023/08/24 18:14:38 Ending cygwin install
